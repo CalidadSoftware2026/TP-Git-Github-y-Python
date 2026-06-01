@@ -13,3 +13,6 @@ class Person:
     
     def is_adult(self):
         return self.age >= 18
+
+    def has_valid_email(self):
+        return "@" in self.email
