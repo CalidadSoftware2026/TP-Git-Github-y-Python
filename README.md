@@ -1,4 +1,4 @@
-# TP Git + GitHub y Python — Calidad de Software ---------
+# TP Git + GitHub y Python — Calidad de Software
 
 Aplicación mínima en Python desarrollada en equipo como trabajo práctico de la materia **Calidad de Software**. El objetivo del TP es practicar un flujo colaborativo completo con Git y GitHub, e implementar un pipeline de CI con GitHub Actions.
 
