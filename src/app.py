@@ -16,10 +16,6 @@ table.add_column("Edad")
 table.add_column("Email")
 
 for person in people:
-    table.add_row(
-        person.name,
-        str(person.age),
-        person.email
-    )
+    table.add_row(person.name, str(person.age), person.email)
 
 console.print(table)
