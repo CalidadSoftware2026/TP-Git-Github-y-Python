@@ -5,12 +5,8 @@ class Person:
         self.email = email
 
     def __str__(self):
-        return (
-            f"Nombre: {self.name}, "
-            f"Edad: {self.age}, "
-            f"Email: {self.email}"
-        )
-    
+        return f"Nombre: {self.name}, Edad: {self.age}, Email: {self.email}"
+
     def is_adult(self):
         return self.age >= 18
 
