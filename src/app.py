@@ -18,10 +18,7 @@ table.add_column("Mayor de edad")
 
 for person in people:
     table.add_row(
-        person.name,
-        str(person.age),
-        person.email,
-        "Sí" if person.is_adult() else "No"
+        person.name, str(person.age), person.email, "Sí" if person.is_adult() else "No"
     )
 
 console.print(table)
